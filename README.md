@@ -36,3 +36,11 @@ ToDo:
 2.  Some trivial code can be optimized
 3.  UX is very primilary for now
 4.  Integration with a backend
+
+Flow:
+
+1. Its preassumed there are 4 users overall. Few messages are loaded by default. The context user is assumed as user with id 4 in [initial state](https://github.com/VinodLouis/sample-chat-poc/blob/master/src/client/js/store/chat/reducer.ts#L20).
+
+2. Also the chat window opens with a [default partner](https://github.com/VinodLouis/sample-chat-poc/blob/master/src/client/js/store/chat/reducer.ts#L20)
+
+3. The messages for now are stubbed in [local file](https://github.com/VinodLouis/sample-chat-poc/blob/master/src/client/js/stub/stub.tsx)
