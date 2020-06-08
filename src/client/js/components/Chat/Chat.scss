@@ -1,0 +1,17 @@
+.chat-container {
+  min-height: 100vh;
+  display: flex;
+
+  .contact-list {
+    flex: 0 1 250px;
+    padding: 10px;
+    background: #f8f6f7;
+  }
+
+  .chat-window {
+    flex: 1;
+    padding: 10px;
+
+    background: #fff4db;
+  }
+}

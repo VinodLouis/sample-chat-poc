@@ -1,0 +1,73 @@
+.message-wrapper {
+  padding: 10px;
+  margin-bottom: 10px;
+
+  &.send {
+    background-color: #ceffce;
+    border: thin solid #bbffbb;
+    margin-left: 100px;
+    float: right;
+    clear: both;
+    border-radius: 10px 10px 0px 10px;
+  }
+
+  &.received {
+    background-color: #ffffff;
+    border: thin solid #b1b1b1;
+    margin-right: 100px;
+    float: left;
+    clear: both;
+    border-radius: 10px 10px 10px 0px;
+  }
+
+  .details {
+    text-align: right;
+    font-size: 11px;
+  }
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  background: #ffbc2b;
+  margin-bottom: 10px;
+
+  .avatar {
+    margin-right: 10px;
+    span {
+      padding: 5px 8px;
+      border-radius: 100%;
+      background: #fff4db;
+    }
+  }
+
+  .name {
+    flex: 1;
+  }
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .message-card-wrapper {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .controls {
+    display: flex;
+
+    textarea {
+      flex: 1;
+      margin-right: 10px;
+      background: #ffffff;
+    }
+
+    .save {
+      cursor: pointer;
+      width: 60px;
+    }
+  }
+}

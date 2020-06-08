@@ -1,0 +1,28 @@
+.contact-list-card {
+  display: flex;
+  padding: 15px;
+  background: antiquewhite;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &.active {
+    border: 1px solid #000000;
+  }
+
+  .avatar {
+    margin-right: 5px;
+    span {
+      padding: 5px 8px;
+      background: aliceblue;
+      border-radius: 100%;
+    }
+  }
+  .name {
+    flex: 1;
+  }
+}
+
+.contact-list-card-wrapper {
+  overflow-y: auto;
+}
